@@ -1,0 +1,48 @@
+.form {
+  padding: 2rem;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    span {
+      font-size: 30px;
+    }
+  }
+
+  &__content {
+    display:flex;
+    flex-direction:column;
+    gap: 3px;
+    justify-content:space-between;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+      padding: 0.5rem 1rem;
+      background-color: #193e2e;
+      cursor: pointer;
+      border-radius: 0.5rem;
+      transition: all ease 0.2s;
+
+      span{
+        color: #fff
+      }
+
+      &:hover{
+        background-color: #2f7093;
+      }
+    }
+  }
+}

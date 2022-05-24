@@ -1,0 +1,124 @@
+.contacts {
+  padding: 2rem;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 6px #8dff6e;
+
+  &__title {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 36px;
+      color: #f4e6ae;
+      text-transform: uppercase;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  &__add {
+    background-color: #193e2e;
+    border-radius: 10px;
+    transition: all ease .2s;
+
+    &:hover {
+      background-color: #2f7093;
+      transform: scale(1.03);
+    }
+
+    button {
+      padding: 1rem;
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+
+      span {
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #f4e6ae;
+      }
+    }
+  }
+}
+
+.contact {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  display: flex;
+  background-color: #193e2e;
+  border-radius: 10px;
+  justify-content: space-between;
+  transition: all ease .2s;
+
+  &:hover {
+    background-color: #51713a;
+    transform: scale(1.03);
+  }
+
+  &__details,
+  &__actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: .5rem;
+    padding: 0 1rem;
+  }
+
+  &__lastname {
+    span {
+      font-size: 20px;
+      color: #f4e6ae
+    }
+  }
+
+  &__number {
+    span {
+      font-size: 14px;
+      color: #f4e6ae
+    }
+  }
+
+  &__edit,
+  &__remove {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+      fill: #000e21;
+
+    &:hover {
+      fill: #f4e6ae;
+    }
+
+    button {
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+
+      span {
+        text-transform: uppercase;
+        font-size: 24px;
+        color: #f4e6ae;
+      }
+    }
+  }
+}

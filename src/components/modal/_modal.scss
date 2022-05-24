@@ -1,0 +1,23 @@
+.modal {
+  position:relative;
+  top: 25%;
+  margin: 0 auto;
+  background-color: #83BA63;
+  box-shadow: 0 4px 34px rgba(0, 0, 0, 0.24);
+  max-width: 350px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  border-radius: 1rem;
+}
+
+.overlay {
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+
